@@ -1,0 +1,11 @@
+// a. √(B^2 + 4AC)
+double resultA = Math.sqrt(B * B + 4 * A * C);
+
+// b. √(X + 4Y^3)
+double resultB = Math.sqrt(X + 4 * Math.pow(Y, 3));
+
+// c. ∛(X * Y)
+double resultC = Math.cbrt(X * Y);
+
+// d. Area of a circle = πr²
+double area = Math.PI * r * r;
